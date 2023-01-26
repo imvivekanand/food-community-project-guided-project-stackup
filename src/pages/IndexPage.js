@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Header from "../components/Header";
  
 const IndexPage = () => {
@@ -33,6 +34,7 @@ const IndexPage = () => {
         </div>
  
       </div>
+      <Footer/>
     </div>
   );
 }

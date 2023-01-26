@@ -9,6 +9,9 @@ import {
 } from "react-router-dom";
 import IndexPage from './pages/IndexPage';
 import RecipeListPage from './pages/RecipeListPage';
+import RecipePage from './pages/RecipePage';
+import CommunityPage from './pages/CommunityPage';
+
  
 const router = createBrowserRouter([
  {
@@ -18,6 +21,14 @@ const router = createBrowserRouter([
  {
   path: "/recipe",
   element: <RecipeListPage />,
+ },
+ {
+  path: "/recipe/:recipe_id",
+  element: <RecipePage />,
+ },
+ {
+  path: "/community",
+  element: <CommunityPage />,
  },
  
 ]);

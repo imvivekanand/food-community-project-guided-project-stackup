@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import { my_recipe } from "../recipe";
  
@@ -27,8 +28,7 @@ const RecipeListPage = () => {
           </div>
         </div>
       </div>
-
-
+      <Footer/>
     </div>
   );
 }
