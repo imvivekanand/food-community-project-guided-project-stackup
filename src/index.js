@@ -8,11 +8,16 @@ import {
  RouterProvider,
 } from "react-router-dom";
 import IndexPage from './pages/IndexPage';
+import RecipeListPage from './pages/RecipeListPage';
  
 const router = createBrowserRouter([
  {
   path: "/",
   element: <IndexPage />,
+ },
+ {
+  path: "/recipe",
+  element: <RecipeListPage />,
  },
  
 ]);
